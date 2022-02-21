@@ -98,34 +98,23 @@
 
 # WK 4 CHALLENGE 8
 
-name = str(input("What is your name?  ")).upper()
-name_reverse = ""
-index = len(name) 
-while index > 0: 
-    name_reverse += name[index - 1] 
-    index = index - 1 
-print(name_reverse)
+# name = str(input("What is your name?  ")).upper()
+# name_reverse = ""
+# index = len(name) 
+# while index > 0: 
+#     name_reverse += name[index - 1] 
+#     index = index - 1 
+# print(name_reverse)
+
+# WK 4 CHALLENGE 9
+
+def cube(num1):
+  num_cube = num1 ** 3
+  return num_cube
+# total = add(num1,num2)
+
+num1 = float(input("Enter a number."))
+total = cube(num1)
+print(total)
 
 
-
-# name_reverse = 
-
-# for n in name:
-#   name = []
-
-#   name_reverse = name[-1] - 1
-#   name.append(name_reverse)
-#   print(name)
-
-# def last_two(name):
-#   print(name[-2],name[-1])
-
-# ask = True
-
-# while ask == True:
-#   name = input("Enter your first name. ")
-#   if name.isalpha():
-#     ask = False
-#     lname = last_two(name)  #because print is already used in your function, do not put again, othwerwise Python will print the last two letters AND try to do the same with the print function used here (hence "None")!
-#   else:
-#     print("Your first name, please!")
