@@ -219,26 +219,26 @@
 
 # WK 4 CHALLENGE 16
 
-start = int(input("Enter your starting number. "))
-stop = int(input("Enter your final number. "))
-total = 0
+# start = int(input("Enter your starting number. "))
+# stop = int(input("Enter your final number. "))
+# total = 0
 
-range_stop = stop + 1
-your_range = range(start, range_stop)
+# range_stop = stop + 1
+# your_range = range(start, range_stop)
 
-for r in range(start,range_stop):
-  total = r + total
-  r += 1
+# for r in range(start,range_stop):
+#   total = r + total
+#   r += 1
 
-print(total)
+# print(total)
 
 # '''NOTES'''# print(len(your_range))
 # # print(your_range[5])
 
-# WK 4 CHALLENGE 16
+# WK 4 CHALLENGE 17
 
-hundred = range(0,101)
-
-for r in range(0,101):
+for r in range(100,-1,-1):
   print(r)
-  r += 1
+  
+#range(start,stop,step)
+'''I know this program works, but replit is acting up. Again.'''
