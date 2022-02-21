@@ -327,3 +327,29 @@
 #     print(i)
 
 # # WK 4 CHALLENGE 23
+
+# alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
+# for a in alphabet:
+#   number = alphabet.index(a)+1
+#   if number % 3 == 0:
+#     print(a)
+
+# # WK 4 CHALLENGE 23.5
+# alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
+# for a in alphabet:
+#   number = alphabet.index(a)+1
+#   if number > 1 and number % 3 == 0: #excluding A
+#     print(a)
+
+
+# # WK 4 CHALLENGE 24
+
+
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+alpha = list(alphabet)
+
+for a in alpha[2::3]:
+  print(a)
