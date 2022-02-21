@@ -267,3 +267,18 @@
 
 # result = opp(num1, num2, num3, num4)
 # print(f"{result} is your result.")
+
+# # WK 4 CHALLENGE 20
+
+def determine(num1):
+  modulus = num1 % 2
+  if modulus == 0:
+    num1 = "even"
+  else:
+    num1 = "odd"
+  return num1
+  # return modulus --> Don't do this. It wil return "1" or "0", not "even"/"odd"
+
+num1 = int(input("Enter an integer. "))
+result = determine(num1)
+print(f"{num1} is {result}.")
