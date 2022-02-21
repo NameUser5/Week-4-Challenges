@@ -126,15 +126,36 @@
 
 # WK 4 CHALLENGE 11
 
-def product(num1,num2):
-  total = num1 * num2
-  return total
+# def product(num1,num2):
+#   total = num1 * num2
+#   return total
 
-num1 = float(input("Enter a number."))
-num2 = float(input("Enter a second number."))
-result = product(num1,num2)
+# num1 = float(input("Enter a number."))
+# num2 = float(input("Enter a second number."))
+# result = product(num1,num2)
 
-print(f"Your total is {result}.")
+# print(f"Your total is {result}.")
+
+# WK 4 CHALLENGE 12
+
+def multi(num1,num2):
+  product = num1 * num2
+  return product
+
+def addto(product,num3):
+  sum = product + num3
+  return sum
+
+num1 = float(input("Enter a number. "))
+num2 = float(input("Enter a second number. "))
+product = multi(num1,num2)
+
+num3 = float(input("Enter a third number. "))
+sum = addto(product,num3)
+
+print(f"Your result is: \n{num1} * {num2} + {num3} = {sum}.")
+
+
 
   
 
