@@ -164,20 +164,19 @@ def add(num1,num2):
 ask = True
 round = 0
 
-while round == 0:
-    num1 = float(input("Enter a number: "))
-    num2 = float(input("Enter a second number: "))
-    tot = add(num1,num2)
-    print(tot)
-    round += 1
-
-while round > 0:
-    # num1 = total 
-    num2 = float(input("Enter a new number: "))
-    new_total = add(tot,num2)
-    print(new_total)
-    round += 1
     
+while ask == True:
+  if round == 0:
+    num1 = float(input("Enter a number: "))
+  else:
+    num1 = total
+  num2 = float(input("Enter another number: "))
+  total = add(num1,num2)
+  print(total)
+  round += 1
+
+
+'''Leaving for reference of what not to do'''    
 # while ask == True:
 #   if round == 0:
 #     num1 = float(input("Enter a number: "))
