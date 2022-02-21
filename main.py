@@ -218,7 +218,6 @@
 
 
 # WK 4 CHALLENGE 16
-flag = True
 
 start = int(input("Enter your starting number. "))
 stop = int(input("Enter your final number. "))
@@ -233,5 +232,13 @@ for r in range(start,range_stop):
 
 print(total)
 
-'''NOTES'''# print(len(your_range))
-# print(your_range[5])
+# '''NOTES'''# print(len(your_range))
+# # print(your_range[5])
+
+# WK 4 CHALLENGE 16
+
+hundred = range(0,101)
+
+for r in range(0,101):
+  print(r)
+  r += 1
