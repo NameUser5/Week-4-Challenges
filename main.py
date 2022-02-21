@@ -308,20 +308,22 @@
 #   result = is_prime(num1)
 #   print(f"{num1} is {result}.")
 
-# # WK 4 CHALLENGE 21
+# # WK 4 CHALLENGE 22
 
-def determine(number):
-  if number % 2 == 0:
-    is_odd = False
-    return is_odd
-  else:
-    is_odd = True
-    return is_odd
+# def determine(number):
+#   if number % 2 == 0:
+#     is_odd = False
+#     return is_odd
+#   else:
+#     is_odd = True
+#     return is_odd
 
-num1 = int(input("Enter your minimum number: "))
-num2 = int(input("Enter your maximum number: "))
+# num1 = int(input("Enter your minimum number: "))
+# num2 = int(input("Enter your maximum number: "))
 
-for i in range(num1,num2+1):
-  is_odd = determine(i)
-  if is_odd == True:
-    print(i)
+# for i in range(num1,num2+1):
+#   is_odd = determine(i)
+#   if is_odd == True:
+#     print(i)
+
+# # WK 4 CHALLENGE 23
