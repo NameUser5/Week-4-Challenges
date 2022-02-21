@@ -249,10 +249,21 @@
 # letter = input("Enter a letter. ").upper()
 
 # if letter in alphabet:
-#   number = alphabet.index(letter) + 1
-#   print(f"{letter} is number {number} in the alphabet.")
+#   number = alphabet.index(letter)
+#   print(f"The index is {number}.\n{letter} is number {number+1} in the alphabet.")
 # else:
 #   print("That is not a letter.")
 
 # # WK 4 CHALLENGE 19
 
+# def opp(num1,num2,num3,num4):
+#   total = (num1 / num2 * num3)-num4
+#   return total
+
+# num1 = float(input("Enter a number. "))
+# num2 = float(input("Enter another number. "))
+# num3 = float(input("Enter another number. "))
+# num4 = float(input("Enter another number. "))
+
+# result = opp(num1, num2, num3, num4)
+# print(f"{result} is your result.")
