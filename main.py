@@ -118,10 +118,24 @@
 
 # WK 4 CHALLENGE 10
 
-num1 = float(input("Enter a number."))
+# num1 = float(input("Enter a number."))
 
-for r in range(1,13):
-  total = num1 * r
-  print(f"{num1} * {r} = {total}")
+# for r in range(1,13):
+#   total = num1 * r
+#   print(f"{num1} * {r} = {total}")
+
+# WK 4 CHALLENGE 11
+
+def product(num1,num2):
+  total = num1 * num2
+  return total
+
+num1 = float(input("Enter a number."))
+num2 = float(input("Enter a second number."))
+result = product(num1,num2)
+
+print(f"Your total is {result}.")
+
+  
 
 
