@@ -195,23 +195,43 @@
 
 # WK 4 CHALLENGE 14
 
-colors = ["void", "infrared", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "ultraviolet"]
+# colors = ["void", "infrared", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "ultraviolet"]
 
-for color in colors:
-  print(color)
+# for color in colors:
+#   print(color)
 
 
 # WK 4 CHALLENGE 15
 
-number = input("Enter your score. ")
-grade = float(number)
+# number = input("Enter your score. ")
+# grade = float(number)
      
-if grade >= 0 and grade <= 70:
-  is_passing = False
-elif grade > 70 and grade <= 100:
-  is_passing = True
+# if grade >= 0 and grade <= 70:
+#   is_passing = False
+# elif grade > 70 and grade <= 100:
+#   is_passing = True
 
-if is_passing == False:
-  print("F A I L I N G")
-else:
-  print("Passing!")
+# if is_passing == False:
+#   print("F A I L I N G")
+# else:
+#   print("Passing!")
+
+
+# WK 4 CHALLENGE 16
+flag = True
+
+start = int(input("Enter your starting number. "))
+stop = int(input("Enter your final number. "))
+total = 0
+
+range_stop = stop + 1
+your_range = range(start, range_stop)
+
+for r in range(start,range_stop):
+  total = r + total
+  r += 1
+
+print(total)
+
+'''NOTES'''# print(len(your_range))
+# print(your_range[5])
