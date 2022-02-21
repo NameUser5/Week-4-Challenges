@@ -270,15 +270,41 @@
 
 # # WK 4 CHALLENGE 20
 
-def determine(num1):
-  modulus = num1 % 2
-  if modulus == 0:
-    num1 = "even"
-  else:
-    num1 = "odd"
-  return num1
-  # return modulus --> Don't do this. It wil return "1" or "0", not "even"/"odd"
+# def determine(num1):
+#   modulus = num1 % 2
+#   if modulus == 0:
+#     num1 = "even"
+#   else:
+#     num1 = "odd"
+#   return num1
+#   # return modulus --> Don't do this. It wil return "1" or "0", not "even"/"odd"
 
-num1 = int(input("Enter an integer. "))
-result = determine(num1)
-print(f"{num1} is {result}.")
+# num1 = int(input("Enter an integer. "))
+# result = determine(num1)
+# print(f"{num1} is {result}.")
+
+# # WK 4 CHALLENGE 21
+
+def is_prime(num1):
+  if num1 == 1:
+    result = "neither prime or composite"
+    return result
+  # if num1 == 2:
+  #   num1 = "prime"
+  #   return num1
+  elif num1 > 1 :
+    for r in range(2, (num1//2)+1):
+      if num1 % r == 0:
+        result = "composite"
+        return result
+    else: #all I needed to do was shift this left!
+      result = "prime"
+      return result  
+
+run = True
+
+while run == True:
+  num1 = int(input("Enter an integer. "))
+  result = is_prime(num1)
+  print(f"{num1} is {result}.")
+        
