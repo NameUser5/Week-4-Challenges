@@ -157,26 +157,26 @@
 
 # WK 4 CHALLENGE 13
 
-def add(num1,num2):
-  total = num1 + num2
-  return total
+# def add(num1,num2):
+#   total = num1 + num2
+#   return total
 
-ask = True
-round = 0
+# ask = True
+# round = 0
 
     
-while ask == True:
-  if round == 0:
-    num1 = float(input("Enter a number: "))
-  else:
-    num1 = total
-  num2 = float(input("Enter another number: "))
-  total = add(num1,num2)
-  print(total)
-  round += 1
+# while ask == True:
+#   if round == 0:
+#     num1 = float(input("Enter a number: "))
+#   else:
+#     num1 = total
+#   num2 = float(input("Enter another number: "))
+#   total = add(num1,num2)
+#   print(total)
+#   round += 1
 
 
-'''Leaving for reference of what not to do'''    
+'''Leaving for reference of what not to do   
 # while ask == True:
 #   if round == 0:
 #     num1 = float(input("Enter a number: "))
@@ -190,8 +190,13 @@ while ask == True:
 #     num2 = float(input("Enter a new number: "))
 #     new_total = add(total,num2)
 #     print(new_total)
-#     round += 1
-
-  
+#     round += 1'''
 
 
+# WK 4 CHALLENGE 14
+
+colors = ["void", "infrared", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "ultraviolet"]
+color = ""
+
+for color in colors:
+  print(color)
