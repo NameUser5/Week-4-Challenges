@@ -347,9 +347,22 @@
 # # WK 4 CHALLENGE 24
 
 
-alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+# alpha = list(alphabet)
+
+# for a in alpha[2::3]:
+#   print(a)
+
+# # WK 4 CHALLENGE 25
+  
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 alpha = list(alphabet)
 
-for a in alpha[2::3]:
-  print(a)
+number = int(input("Enter a positive integer."))
+
+for a in alpha:
+  idxnum = alpha.index(a)+1
+  if idxnum % number == 0:
+    print(a)
+
