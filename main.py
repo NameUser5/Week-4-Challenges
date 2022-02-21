@@ -138,24 +138,60 @@
 
 # WK 4 CHALLENGE 12
 
-def multi(num1,num2):
-  product = num1 * num2
-  return product
+# def multi(num1,num2):
+#   product = num1 * num2
+#   return product
 
-def addto(product,num3):
-  sum = product + num3
-  return sum
+# def addto(product,num3):
+#   sum = product + num3
+#   return sum
 
-num1 = float(input("Enter a number. "))
-num2 = float(input("Enter a second number. "))
-product = multi(num1,num2)
+# num1 = float(input("Enter a number. "))
+# num2 = float(input("Enter a second number. "))
+# product = multi(num1,num2)
 
-num3 = float(input("Enter a third number. "))
-sum = addto(product,num3)
+# num3 = float(input("Enter a third number. "))
+# sum = addto(product,num3)
 
-print(f"Your result is: \n{num1} * {num2} + {num3} = {sum}.")
+# print(f"Your result is: \n{num1} * {num2} + {num3} = {sum}.")
 
+# WK 4 CHALLENGE 13
 
+def add(num1,num2):
+  total = num1 + num2
+  return total
+
+ask = True
+round = 0
+
+while round == 0:
+    num1 = float(input("Enter a number: "))
+    num2 = float(input("Enter a second number: "))
+    tot = add(num1,num2)
+    print(tot)
+    round += 1
+
+while round > 0:
+    # num1 = total 
+    num2 = float(input("Enter a new number: "))
+    new_total = add(tot,num2)
+    print(new_total)
+    round += 1
+    
+# while ask == True:
+#   if round == 0:
+#     num1 = float(input("Enter a number: "))
+#     num2 = float(input("Enter a second number: "))
+#     total = add(num1,num2)
+#     print(total)
+#     round += 1
+
+#   elif round > 0:
+#     # num1 = total 
+#     num2 = float(input("Enter a new number: "))
+#     new_total = add(total,num2)
+#     print(new_total)
+#     round += 1
 
   
 
