@@ -196,7 +196,22 @@
 # WK 4 CHALLENGE 14
 
 colors = ["void", "infrared", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "ultraviolet"]
-color = ""
 
 for color in colors:
   print(color)
+
+
+# WK 4 CHALLENGE 15
+
+number = input("Enter your score. ")
+grade = float(number)
+     
+if grade >= 0 and grade <= 70:
+  is_passing = False
+elif grade > 70 and grade <= 100:
+  is_passing = True
+
+if is_passing == False:
+  print("F A I L I N G")
+else:
+  print("Passing!")
