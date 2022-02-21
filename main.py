@@ -108,13 +108,20 @@
 
 # WK 4 CHALLENGE 9
 
-def cube(num1):
-  num_cube = num1 ** 3
-  return num_cube
-# total = add(num1,num2)
+# def cube(num1):
+#   num_cube = num1 ** 3
+#   return num_cube
+
+# num1 = float(input("Enter a number."))
+# total = cube(num1)
+# print(total)
+
+# WK 4 CHALLENGE 10
 
 num1 = float(input("Enter a number."))
-total = cube(num1)
-print(total)
+
+for r in range(1,13):
+  total = num1 * r
+  print(f"{num1} * {r} = {total}")
 
 
