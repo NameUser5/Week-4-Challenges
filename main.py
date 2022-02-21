@@ -80,7 +80,7 @@
 #   else:
 #     print("Letters only. First name only.")
 
-# #WK 4 CHALLENGE 7
+## WK 4 CHALLENGE 7
 
 # def last_two(name):
 #   print(name[-2],name[-1])
@@ -96,7 +96,7 @@
 #     print("Your first name, please!")
 
 
-# WK 4 CHALLENGE 8
+## WK 4 CHALLENGE 8
 
 # name = str(input("What is your name?  ")).upper()
 # name_reverse = ""
@@ -106,7 +106,7 @@
 #     index = index - 1 
 # print(name_reverse)
 
-# WK 4 CHALLENGE 9
+## WK 4 CHALLENGE 9
 
 # def cube(num1):
 #   num_cube = num1 ** 3
@@ -116,7 +116,7 @@
 # total = cube(num1)
 # print(total)
 
-# WK 4 CHALLENGE 10
+## WK 4 CHALLENGE 10
 
 # num1 = float(input("Enter a number."))
 
@@ -124,7 +124,7 @@
 #   total = num1 * r
 #   print(f"{num1} * {r} = {total}")
 
-# WK 4 CHALLENGE 11
+## WK 4 CHALLENGE 11
 
 # def product(num1,num2):
 #   total = num1 * num2
@@ -136,7 +136,7 @@
 
 # print(f"Your total is {result}.")
 
-# WK 4 CHALLENGE 12
+## WK 4 CHALLENGE 12
 
 # def multi(num1,num2):
 #   product = num1 * num2
@@ -155,7 +155,7 @@
 
 # print(f"Your result is: \n{num1} * {num2} + {num3} = {sum}.")
 
-# WK 4 CHALLENGE 13
+## WK 4 CHALLENGE 13
 
 # def add(num1,num2):
 #   total = num1 + num2
@@ -193,7 +193,7 @@
 #     round += 1'''
 
 
-# WK 4 CHALLENGE 14
+## WK 4 CHALLENGE 14
 
 # colors = ["void", "infrared", "red", "orange", "yellow", "green", "blue", "indigo", "violet", "ultraviolet"]
 
@@ -201,7 +201,7 @@
 #   print(color)
 
 
-# WK 4 CHALLENGE 15
+## WK 4 CHALLENGE 15
 
 # number = input("Enter your score. ")
 # grade = float(number)
@@ -217,7 +217,7 @@
 #   print("Passing!")
 
 
-# WK 4 CHALLENGE 16
+## WK 4 CHALLENGE 16
 
 # start = int(input("Enter your starting number. "))
 # stop = int(input("Enter your final number. "))
@@ -235,10 +235,24 @@
 # '''NOTES'''# print(len(your_range))
 # # print(your_range[5])
 
-# WK 4 CHALLENGE 17
+## WK 4 CHALLENGE 17
 
-for r in range(100,-1,-1):
-  print(r)
-  
+# for r in range(100,-1,-1):
+#   print(r)
 #range(start,stop,step)
 '''I know this program works, but replit is acting up. Again.'''
+
+# # WK 4 CHALLENGE 18
+
+# alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
+# letter = input("Enter a letter. ").upper()
+
+# if letter in alphabet:
+#   number = alphabet.index(letter) + 1
+#   print(f"{letter} is number {number} in the alphabet.")
+# else:
+#   print("That is not a letter.")
+
+# # WK 4 CHALLENGE 19
+
