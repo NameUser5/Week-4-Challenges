@@ -285,26 +285,43 @@
 
 # # WK 4 CHALLENGE 21
 
-def is_prime(num1):
-  if num1 == 1:
-    result = "neither prime or composite"
-    return result
-  # if num1 == 2:
-  #   num1 = "prime"
-  #   return num1
-  elif num1 > 1 :
-    for r in range(2, (num1//2)+1):
-      if num1 % r == 0:
-        result = "composite"
-        return result
-    else: #all I needed to do was shift this left!
-      result = "prime"
-      return result  
+# def is_prime(num1):
+#   if num1 == 1:
+#     result = "neither prime or composite"
+#     return result
+#   # if num1 == 2:
+#   #   num1 = "prime"
+#   #   return num1
+#   elif num1 > 1 :
+#     for r in range(2, (num1//2)+1):
+#       if num1 % r == 0:
+#         result = "composite"
+#         return result
+#     else: #all I needed to do was shift this left!
+#       result = "prime"
+#       return result  
 
-run = True
+# run = True
 
-while run == True:
-  num1 = int(input("Enter an integer. "))
-  result = is_prime(num1)
-  print(f"{num1} is {result}.")
-        
+# while run == True:
+#   num1 = int(input("Enter a positive integer. "))
+#   result = is_prime(num1)
+#   print(f"{num1} is {result}.")
+
+# # WK 4 CHALLENGE 21
+
+def determine(number):
+  if number % 2 == 0:
+    is_odd = False
+    return is_odd
+  else:
+    is_odd = True
+    return is_odd
+
+num1 = int(input("Enter your minimum number: "))
+num2 = int(input("Enter your maximum number: "))
+
+for i in range(num1,num2+1):
+  is_odd = determine(i)
+  if is_odd == True:
+    print(i)
