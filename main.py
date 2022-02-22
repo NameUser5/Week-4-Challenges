@@ -356,29 +356,34 @@
 
 # # WK 4 CHALLENGE 25
   
-# alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# alpha = list(alphabet)
+# def shift(alpha,number):
+#   right_first = alpha[0 : len(alpha)-number]
+#   right_second = alpha[len(alpha)-number : ]
 
-# number = int(input("Enter a positive integer between 1 and 26."))
+#   print(right_second + right_first) 
+  
+# alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-# for a in alpha:
-#   idxnum = alpha.index(a)+1
-#   if idxnum % number == 0:
-#     print(a)
+# number = int(input("Enter a positive integer between 1 and 26. "))
+
+# shift(alpha,number)
 
 ## CHALLENGE 25 LOOPED:
-# alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-# alpha = list(alphabet)
+
+# def shift(alpha,number):
+#   right_first = alpha[0 : len(alpha)-number]
+#   right_second = alpha[len(alpha)-number : ]
+
+#   print(right_second + right_first) 
+
+# alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 # ask = True
 
 # while ask == True:
-#   number = int(input("Enter a positive integer between 1 and 26. "))
-#   if number >= 1 and number <= 26:
-#     for a in alpha:
-#       idxnum = alpha.index(a)+1
-#       if idxnum % number == 0:
-#         print(a)
+#   number = int(input("Enter a positive integer between 0 and 26. "))
+#   if number >= 0 and number <= 26:
+#     shift(alpha,number)
 #   else:
 #     print("Try again. ")
     
